@@ -29,7 +29,7 @@ languages = {
     :javascript => {
       :type => "interpreted"
     }
- 
+
   }
 }
 end
@@ -49,7 +49,7 @@ def reformat_languages(languages)
       end
     end
   end
-  
+
 end
 
-reformat_languages
+reformat_languages(languages)
